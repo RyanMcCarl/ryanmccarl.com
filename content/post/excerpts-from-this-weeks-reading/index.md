@@ -1,0 +1,13 @@
++++
+title = "Excerpts from this week's reading"
+date = 2007-06-20T23:14:00Z
+updated = 2018-12-26T23:54:35Z
+tags = ["literature", "poetry"]
+categories = ["literature"]
+blogimport = true
+[author]
+	name = "Ryan McCarl"
+	uri = "https://plus.google.com/+RyanMcCarl"
++++
+
+It was a highly respectable street, where all the houses were exactly alike, and where business men of moderate means begot and reared large families of children, all of whom went to Sunday School and learned the shorter catechism, and were exactly alike as their homes, and of a piece with the monotony in which they lived.  Paul never went up Cordelia Street without a shudder of loathing.<br />...<br />He lay still and closed his eyes and let the tide of realities wash over him.<br /><br />-Willa Cather, from "Paul's Case"<br /><br />O passionately at peace when will that tide draw shoreward?<br />Truly the spouting fountains of light, Antares, Arcturus,<br />Tire of their flow, they sing one song but they think silence.<br />The striding winter giant Orion shines, and dreams darkness.<br />And life, the flicker of men and moths and the wolf on the hill,<br />Though furious for continuance, passionately feeding, passionately<br />Remaking itself upon its mates, remembers deep inward<br />The calm mother, the quietness of the womb and the egg,<br />The primal and the latter silences: dear Night it is memory<br />Prophesies, prophecy that remembers, the charm of the dark.<br /><br />And I and my people, we are willing to love the four-score years<br />Heartily; but as a sailor loves the sea, when the helm is for harbor.<br /><br />-Robinson Jeffers, from "Night"<br /><br />He was still trembling when he reached the street, but a walk down the Rue Bonaparte to the quais set him up, and as he crossed the Seine, fresh and new by the quai lamps, he felt exultant.<br /><br />-F. Scott Fitzgerald, from "Babylon Revisited"<br /><br /><span style="font-weight: bold;">Meeting and Passing</span><br /><br />As I went down the hill along the wall<br />There was a gate I had leaned at for the view<br />And had just turned from when I first saw you<br />As you came up the hill. We met. But all<br />We did that day was mingle great and small<br />Footprints in summer dust as if we drew<br />The figure of our being less than two<br />But more than one as yet. Your parasol<br /><br />Pointed the decimal off with one deep thrust.<br />And all the time we talked you seemed to see<br />Something down there to smile at in the dust.<br />(Oh, it was without prejudice to me!)<br />Afterward I went past what you had passed<br />Before we met and you what I had passed.<br /><br /><span style="font-style: italic;">Robert Frost</span>

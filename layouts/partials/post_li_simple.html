@@ -1,0 +1,7 @@
+{{ $post := . }}
+
+<div class="pub-list-item" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+	<i class="fas fa-circle" aria-hidden="true"></i>
+	<a href="{{ $post.RelPermalink }}" item
+  prop="url"><span itemprop="headline">{{ $post.Title }}</span></a>
+</div>

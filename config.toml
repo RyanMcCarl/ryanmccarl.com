@@ -40,6 +40,9 @@ enableGitInfo = false
   home = [ "HTML", "CSS", "RSS", "JSON" ]
   section = [ "HTML", "RSS" ]
 
+[permalinks]
+    post = "/blog/:slug"
+
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
 [blackfriday]
@@ -53,14 +56,14 @@ enableGitInfo = false
 
   # Your details.
   name = "Ryan McCarl"
-  role = "Attorney | Writer | Educator
+  role = "Attorney | Writer | Educator"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
   organizations = [ { name = "Founder, WordBrewery.com", url = "https://wordbrewery.com" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "ryanmccarlheadshotsmall.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "ryanmccarlheadshot.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
   email = "admin@wordbrewery.com"
@@ -73,8 +76,6 @@ enableGitInfo = false
   # Map provider:
   #   0: No map
   #   1: Google Maps
-  #   2: OpenStreetMap (Mapnik)
-  #   3: OpenStreetMap (Mapbox)
   map = 0
 
   # SITE SETUP
@@ -83,7 +84,7 @@ enableGitInfo = false
   #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
   color_theme = "default"
   # Enable users to switch between day and night mode?
-  day_night = true
+#  day_night = true
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
@@ -143,7 +144,7 @@ enableGitInfo = false
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = ["python", "go", "lisp", "html", "sql", "bash"]
+  highlight_languages = ["python", "go", "lisp", "sql", "bash"]
   # highlight_style = "github"
 
   # Enable native social sharing buttons?
@@ -156,7 +157,7 @@ enableGitInfo = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = ["custom.css"]
+  custom_css = ["chosen.min.css", "onetwothree.css", "custom.css"]
   custom_js  = ["custom.js"]
 
   # Publication types.
@@ -233,12 +234,12 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fas"
-    link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+    link = "mailto:admin@WordBrewery.com"
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fab"
-    link = "https://twitter.com/GeorgeCushen"
+    link = "https://twitter.com/ryanmccarl"
 
 #  [[params.social]]
 #    icon = "google-scholar"
@@ -249,6 +250,11 @@ enableGitInfo = false
     icon = "github"
     icon_pack = "fab"
     link = "https://github.com/ryanmccarl"
+
+  [[params.social]]
+    icon = "google-plus"
+    icon_pack = "fab"
+    link = "https://plus.google.com/+RyanMcCarl"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -265,35 +271,46 @@ enableGitInfo = false
   # Align the main menu to the right of the page? (true/false)
   align_right = true
 
-[[menu.main]]
-  name = "Home"
-  url = "#about"
-  weight = 1
-
 #[[menu.main]]
 #  name = "Publications"
 #  url = "#publications_selected"
 #  weight = 2
 
 [[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 2
+
+[[menu.main]]
+	name = "SSRN"
+	url = "https://ssrn.com/author=1405802"
+	weight = 6
+
+[[menu.main]]
   name = "Posts"
   url = "#posts"
   weight = 3
 
+
 [[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
+  name = "About"
+  url = "#about"
+  weight = 9
+
+# [[menu.main]]
+#   name = "Index"
+#   url = "#tag_cloud"
+#   weight = 99
 
 #[[menu.main]]
 #  name = "Tutorials"
 #  url = "/tutorial/"
 #  weight = 5
 
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 6
+# [[menu.main]]
+#   name = "Contact"
+#   url = "#contact"
+#   weight = 6
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

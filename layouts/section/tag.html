@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+{{ partial "page_header.html" . }}
+{{ $tags := $.Site.Taxonomies.tags.Alphabetical }}
+<div class="universal-wrapper">
+<div class="content">
+<h1>{{ title .Data.Term }}</h1>
+      	<ul class="tag_list">
+        {{ range $tags }}
+        {{ if gt .Count 1 }}
+        {{ $name := .Name }}
+          <li><a href="{{ ($.Site.GetPage (printf "tags/%s" $name)).RelPermalink }}">{{ $name }}</a></li>
+        {{ end }}
+        {{ end }}
+    	</ul>
+      </div>
+  </div>
+</div>
+
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}

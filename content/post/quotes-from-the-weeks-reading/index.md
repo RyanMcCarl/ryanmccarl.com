@@ -1,0 +1,12 @@
++++
+title = "Quotes from the week's reading"
+date = 2007-12-17T01:34:00Z
+updated = 2007-12-17T02:17:22Z
+draft = true
+blogimport = true
+[author]
+	name = "Ryan McCarl"
+	uri = "https://plus.google.com/+RyanMcCarl"
++++
+
+<div>-The <em>Boston Globe</em> has <a href="http://www.boston.com/bostonglobe/editorial_opinion/editorials/articles/2007/12/16/for_democrats_barack_obama/">endorsed</a> Barack Obama for the New Hampshire Democratic primary, and the endorsement is an excellent piece of political writing.  My friends and I listened to over an hour of Obama's <em>Dreams of My Father</em> on our way back from our road trip to Appalachia.  I'm two-thirds of the way through it, and it is fantastic.  Very highly recommended, and on an entirely different plane than the more political and vague <em>The Audacity of Hope</em>.</div><br /><div> </div><br /><div>-</div><br /><div><br />In (slavery) cases, time and again, the judiciary paraded its helplessness before the law; lamented harsh results; intimated that in a more perfect world, or at the end of days, a better law would emerge, but almost uniformly, marched to the music, steeled themselves, and hung Billy Budd.<br /><br />Robert M. Cover<br />--Justice Accused: Antislavery and the Judicial Process<br /><br />We cannot remain uprooted from the earth for too long without losing our sense of what it means to be fully alive.<br /><br />Fred D. White<br />--Essential Muir: A Selection of John Muir's Best Writings </div><br /><div> </div><br /><div>The causes attributed to past wars by historians are not really causes at all, but merely the triggers that set them off.</div><br /><div>...<br />If the psychodynamic investigation of our warlike propensity has any advantage over other approaches, it is that it gets closer to the core of the problem.  It underlines the truth that wars do not begin in senates, parliaments, or military headquarters but in the minds of men.  It demonstrates that the rational use of force for political objectives and the rational use of strategy to attain military goals are based on an irrational substrate in the human organism which makes military behavior an available resource at the disposal of governments, chieftains, tyrants, and warlords.  On this foundation of unreason do our reasoned strategies proceed.</div><br /><div> </div><br /><div>Anthony Stevens</div><br /><div>  --The Roots of War and Terror</div><br /><div> </div>

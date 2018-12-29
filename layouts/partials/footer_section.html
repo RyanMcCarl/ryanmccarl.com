@@ -1,0 +1,48 @@
+<footer class="site-footer">
+  {{ with .Site.GetPage "privacy.md" }}
+  <p class="powered-by">
+    {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+  </p>
+  {{ end }}
+
+  <p class="powered-by">
+    {{ with .Site.Copyright }}{{ . | markdownify}} &middot; {{ end }}
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+      <link itemprop="url" href="{{ $.Site.BaseURL }}">
+      <ul class="network-icon" aria-hidden="true">
+        {{ range $.Site.Params.social }}
+        {{ $pack := or .icon_pack "fas" }}
+        {{ $pack_prefix := $pack }}
+        {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+          {{ $pack_prefix = "fa" }}
+        {{ end }}
+        {{ $link := .link }}
+        {{ $scheme := (urls.Parse $link).Scheme }}
+        {{ $target := "" }}
+        {{ if not $scheme }}
+          {{ $link = .link | relLangURL }}
+        {{ else if in (slice "http" "https") $scheme }}
+          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+        {{ end }}
+        <li>
+          <a itemprop="sameAs" href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
+            <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon"></i>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    {{ if ne .Type "docs" }}
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    {{ end }}
+  </p>
+</footer>

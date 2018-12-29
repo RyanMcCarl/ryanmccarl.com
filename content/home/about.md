@@ -1,40 +1,16 @@
 +++
 # About/Biography widget.
+
+date = "2018-12-24T14:42:00"
+draft = false
 widget = "about"
-active = true
-date = 2016-04-20T00:00:00
 
 # Order that this section will appear in.
-weight = 5
+weight = 1
 
-# List your academic interests.
-[interests]
-  interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
-  ]
-
-# List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
-
-[[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
- 
 +++
 
-# Biography
+Ryan McCarl is an attorney, writer, and educational technology entrepreneur in Los Angeles. His website [WordBrewery](https://wordbrewery.com) teaches vocabulary in 20 languages using real sentences from the news. His writings about law, policy, education, and other topics have appeared in the *Stanford Journal of International Law*, *Hastings Constitutional Law Quarterly*, *Independent*, *Philadelphia Inquirer*, *Atlanta Journal-Constitution*, and elsewhere.
+<!--more-->
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Ryan clerked for the Honorable David M. Ebel on the United States Court of Appeals for the Tenth Circuit. He earned his J.D. with Honors from the University of Chicago Law School, where he was a member of The Chicago Journal of International Law. He earned an M.A. in International Relations and B.A. in Political Science simultaneously at the University of Chicago, where he was a captain of the track team and broke the school record in cross country. He also received an M.A. in Education at the University of Michigan-Ann Arbor and taught high school history and geography.
